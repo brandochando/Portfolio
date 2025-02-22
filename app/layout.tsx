@@ -12,6 +12,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="48x48"
+          href="/favicon-48x48.png"
+        />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      </head>
       <body className={inter.className}>
         <Background />
         <div className="relative z-10">{children}</div>
