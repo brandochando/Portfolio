@@ -19,7 +19,7 @@ export default function Education() {
           Algorithms, Principles of OS, Principles of SWE, Computer Ethics,
           Multivariable Calculus, Linear Algebra, Probability & Mathematical
           Statistics, Differential Equations, Data Visualization, Artificial
-          Intelligence & Machine Learning"
+          Intelligence & Machine Learning
         </>
       ),
     },
