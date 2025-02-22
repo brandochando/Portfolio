@@ -149,7 +149,12 @@ export default function Projects() {
         <div className="w-full flex justify-center items-center mt-8">
           <div className="mr-4 text-lg font-bold">This portfolio: </div>
           <Button variant="outline" size="sm" asChild>
-            <a href={""} className="text-black" target="_blank" rel="noopener noreferrer">
+            <a
+              href={"https://github.com/brandochando/Portfolio"}
+              className="text-black"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github className="mr-2 h-4 w-4" />
               GitHub
             </a>
