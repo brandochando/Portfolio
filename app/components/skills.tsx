@@ -49,16 +49,16 @@ export default function Skills() {
     <section className="py-40">
       <div className="flex justify-center">
         <div className="max-w-[60%]">
-          <h3 className="mb-[50px] text-center text-2xl font-bold tracking-tight sm:text-3xl">
+          <h3 className="mb-[50px] text-center text-xl font-bold tracking-tight sm:text-3xl">
             Hey, glad you could make it to my portfolio!
           </h3>
-          <h3 className="mb-[60%] text-center text-2xl font-bold tracking-tight sm:text-3xl">
+          <h3 className="mb-[150%] sm:mb-[110%] lg:mb-[60%] text-center text-xl font-bold tracking-tight sm:text-3xl">
             I'm Brandon and I'm a well-rounded, language-agnostic software
             engineer with start-up and industry experience and the ability to
             quickly grasp new technologies, programming languages, and
             application ecosystems.
           </h3>
-          <h3 className="mb-[60%] text-center text-2xl font-bold tracking-tight sm:text-3xl">
+          <h3 className="mb-[150%] sm:mb-[110%] lg:mb-[60%] text-center text-xl font-bold tracking-tight sm:text-3xl">
             Here's a bit about me.
           </h3>
         </div>
