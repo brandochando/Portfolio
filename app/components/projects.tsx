@@ -92,7 +92,7 @@ export default function Projects() {
 
   return (
     <section className="py-40">
-      <div className="container mx-auto px-4">
+      <div id="projects" className="container mx-auto px-4">
         <h2 className="mb-12 text-center text-3xl font-black tracking-tight sm:text-4xl">
           PROJECTS
         </h2>

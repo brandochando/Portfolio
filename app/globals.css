@@ -4,6 +4,14 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+body.loaded {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 @layer utilities {

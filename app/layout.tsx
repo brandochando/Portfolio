@@ -1,7 +1,10 @@
+"use client";
+
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";
 import Background from "./components/background";
 import type React from "react";
+import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,6 +13,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  useEffect(() => {
+    document.body.classList.add("loaded");
+  }, []);
+
   return (
     <html lang="en">
       <head>
