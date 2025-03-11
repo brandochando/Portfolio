@@ -69,6 +69,25 @@ export default function Projects() {
       live: "https://flat-fair-app.vercel.app/",
       demo: "https://drive.google.com/file/d/1JhygaxjQ-XLzDIPaRFkjbxxDTWz8AgYi/view?usp=sharing",
     },
+    {
+      title: "Focus.Feed",
+      description:
+        "Leveraging a custom, bias-aware aggregation model and scrape API to build a succinct, highly-customizable web and email news interface",
+      preview: "/focusfeed.png?height=300&width=600",
+      technologies: [
+        "Figma",
+        "TypeScript",
+        "React.js",
+        "Firebase",
+        "GitHub",
+        "Jest",
+        "Tailwind CSS",
+        "Python",
+        "Resend"
+      ],
+      github: "https://github.com/SeanOnamade/TLDR",
+      demo: "https://drive.google.com/file/d/1XTl06wJeHDKX1iJ-lERG3SYKEGP8KIyZ/view?usp=sharing",
+    },
   ];
 
   return (
