@@ -8,14 +8,6 @@ export default function Footer() {
           </p>
           <div className="flex gap-6">
             <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white"
-            >
-              Resume
-            </a>
-            <a
               href="https://www.linkedin.com/in/brandon-l-chandler/"
               target="_blank"
               rel="noopener noreferrer"
